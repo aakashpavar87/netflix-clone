@@ -6,7 +6,6 @@
 body{
     background-color: #232323;
     overflow-x: hidden;
-    /* scrollbar-color: #f00 #ccc; */
 }
 /* font-family: "Martel Sans", sans-serif; */
 .container{
@@ -18,7 +17,6 @@ body{
     z-index: -10;
 }
 .my-cont{
-    /* margin: 0 auto; */
     width: 100vw;
     display: flex;
     justify-content: center;
