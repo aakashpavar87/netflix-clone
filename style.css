@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #232323;
+    overflow-x: hidden;
+    /* scrollbar-color: #f00 #ccc; */
+}
+/* font-family: "Martel Sans", sans-serif; */
+.container{
+    background: url('images/bg.jpg');
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -10;
+}
+.my-cont{
+    /* margin: 0 auto; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -5;
+}
+header{
+    position: relative;
+    z-index: -200;
+}
+.nav{
+    position: absolute;
+    z-index: 10;
+    top:0;
+    margin: 2vw 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btns button{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+.btns>:nth-child(1){
+    background-color: transparent;
+}
+.btns>:nth-child(2){
+    background-color: red;
+}
+.content{
+    display: flex;
+    margin-top: 20vh;
+    font-family: "Martel Sans", sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.input{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15vh;
+    pointer-events: all;
+}
+.input button{
+    margin: 0 2vh;
+    width: 20vh;
+    text-align: center;
+    background: red;
+    height: 31px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.input input{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.74);
+}
+.input input::placeholder{
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+}
+.page1{
+    margin-top: 1vh;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.text-cont{
+    color: white;
+    width: 26vw;
+}
+.text-cont h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.text-cont p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+.tv-img-cont{
+    position: relative;
+}
+.tv-img-cont img{
+    width: 50vw;
+    height: 50vh;
+}
+.tv-img-cont video{
+    position: absolute;
+    top: 11vh;
+    height: 25vh;
+    width: 36vw;
+    left: 48px;
+}
+#mobile-head{
+    font-size: 35px;
+    white-space: nowrap;
+    line-height: 30px;
+}
+#saif-vid{
+    position: absolute;
+    left: 10vh;
+    top: 5vh;
+}
+.newpage{
+    margin-top: 1vh;
+    padding-top: 2vh;
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.que-box{
+    height: 14vh;  
+    display: flex;
+    margin: 1vh;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+    background: #2D2D2D;
+    padding: 0 2vh;
+}
+.newpage>h1{
+    font-weight: 900;
+    font-size: 3.5vw;
+}
+#small-head{
+    color: white;
+    margin-top: 10vh;
+    font-size: 20px;
+}
+.email-group{
+    margin-top: 0;
+}
+.email-group input{
+    padding: 2.3vh;
+    color: white;
+    width: 20vw;
+    font-size: 2.5vh;
+    border: 1px solid white;
+}
+.email-group button{
+    font-size: 3vh;
+    padding: 4vh;
+    height: 6vh;
+    width: 20vw;
+}
+.footer-box{
+    display: flex;
+    margin: 1vh auto;   
+    padding: 0 4vh;
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    background: black;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#phone, #phone a{
+    color: #fff;
+    width: 80vw;
+    height: 10vh;
+}
+#phone h3{
+    margin-left: 32vh;
+}
+.footer-links{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.link-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.link-box>a{
+    color: #fff;
+}
