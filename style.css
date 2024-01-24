@@ -107,7 +107,7 @@ header{
 .page1{
     margin-top: 1vh;
     width: 100vw;
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     background-color: black;
     justify-content: center;
